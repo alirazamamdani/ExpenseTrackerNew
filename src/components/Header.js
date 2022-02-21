@@ -1,6 +1,8 @@
-import React from 'react'
+import React from "react";
 export const Header = () => {
   return (
-    <h2>Expense Tracker Made by Ali Raza Mamdani</h2>
-  )
-}
+    <div className="title-container">
+      <h2 className="title">Expense Tracker Made by Ali Raza Mamdani</h2>
+    </div>
+  );
+};
